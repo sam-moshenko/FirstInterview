@@ -27,9 +27,18 @@ class ViewController: UICollectionViewController {
     }
 
 }
+
 private extension ViewController{
     func configureTable(){
         collectionView.register(ImageCollectionCell.self, forCellWithReuseIdentifier: Identifier.imageCellId.rawValue)
+    }
+
+    func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
+
+    }
+
+    func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
+
     }
 }
 

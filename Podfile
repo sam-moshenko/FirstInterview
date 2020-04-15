@@ -7,5 +7,9 @@ target 'InterviewTask' do
 
   # Pods for InterviewTask
   pod 'SnapKit'
+  pod 'RxSwift'
+  pod 'RxCocoa'
+  pod 'Alamofire', '4.8.2'
+  pod 'RxAlamofire'
 
 end

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		09FE43A3F19901F13404E727 /* Pods_InterviewTask.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 641C0E42871BC18A65686403 /* Pods_InterviewTask.framework */; };
 		1F2727512446906C002388C6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F2727502446906C002388C6 /* AppDelegate.swift */; };
 		1F2727552446906C002388C6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F2727542446906C002388C6 /* ViewController.swift */; };
 		1F27275A2446906F002388C6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1F2727592446906F002388C6 /* Assets.xcassets */; };
@@ -14,7 +15,7 @@
 		1F27276624469280002388C6 /* ImageCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F27276524469280002388C6 /* ImageCollectionCell.swift */; };
 		1F27276824469457002388C6 /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F27276724469457002388C6 /* API.swift */; };
 		1F27277424469C1F002388C6 /* UIImageView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F27277324469C1F002388C6 /* UIImageView+Extension.swift */; };
-		41ACD243A5A8A3894E64A50E /* Pods_InterviewTask.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F91B709EC154B4F72230300A /* Pods_InterviewTask.framework */; };
+		918E63242446F63700B38A19 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 918E63232446F63700B38A19 /* ViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,9 +28,10 @@
 		1F27276524469280002388C6 /* ImageCollectionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCollectionCell.swift; sourceTree = "<group>"; };
 		1F27276724469457002388C6 /* API.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
 		1F27277324469C1F002388C6 /* UIImageView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImageView+Extension.swift"; sourceTree = "<group>"; };
-		3CD6EC0EBEF9D30C20418976 /* Pods-InterviewTask.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InterviewTask.debug.xcconfig"; path = "Target Support Files/Pods-InterviewTask/Pods-InterviewTask.debug.xcconfig"; sourceTree = "<group>"; };
-		969D546CEE8E29173465B13C /* Pods-InterviewTask.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InterviewTask.release.xcconfig"; path = "Target Support Files/Pods-InterviewTask/Pods-InterviewTask.release.xcconfig"; sourceTree = "<group>"; };
-		F91B709EC154B4F72230300A /* Pods_InterviewTask.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_InterviewTask.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		641C0E42871BC18A65686403 /* Pods_InterviewTask.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_InterviewTask.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		718B473BAC284118F68DBA9B /* Pods-InterviewTask.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InterviewTask.debug.xcconfig"; path = "Target Support Files/Pods-InterviewTask/Pods-InterviewTask.debug.xcconfig"; sourceTree = "<group>"; };
+		7260383FEC01365EA2716DFE /* Pods-InterviewTask.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InterviewTask.release.xcconfig"; path = "Target Support Files/Pods-InterviewTask/Pods-InterviewTask.release.xcconfig"; sourceTree = "<group>"; };
+		918E63232446F63700B38A19 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,7 +39,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				41ACD243A5A8A3894E64A50E /* Pods_InterviewTask.framework in Frameworks */,
+				09FE43A3F19901F13404E727 /* Pods_InterviewTask.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -47,8 +49,8 @@
 		188282ECBF9DEFBB0CAAAE45 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				3CD6EC0EBEF9D30C20418976 /* Pods-InterviewTask.debug.xcconfig */,
-				969D546CEE8E29173465B13C /* Pods-InterviewTask.release.xcconfig */,
+				718B473BAC284118F68DBA9B /* Pods-InterviewTask.debug.xcconfig */,
+				7260383FEC01365EA2716DFE /* Pods-InterviewTask.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -59,7 +61,7 @@
 				1F27274F2446906C002388C6 /* InterviewTask */,
 				1F27274E2446906C002388C6 /* Products */,
 				188282ECBF9DEFBB0CAAAE45 /* Pods */,
-				DC0A02A97632598DCF424F3B /* Frameworks */,
+				EEFAA874F74A12A1D1A462AE /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -106,6 +108,7 @@
 			children = (
 				1F2727642446926B002388C6 /* View */,
 				1F2727542446906C002388C6 /* ViewController.swift */,
+				918E63232446F63700B38A19 /* ViewModel.swift */,
 			);
 			path = Module;
 			sourceTree = "<group>";
@@ -126,10 +129,10 @@
 			path = Extension;
 			sourceTree = "<group>";
 		};
-		DC0A02A97632598DCF424F3B /* Frameworks */ = {
+		EEFAA874F74A12A1D1A462AE /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				F91B709EC154B4F72230300A /* Pods_InterviewTask.framework */,
+				641C0E42871BC18A65686403 /* Pods_InterviewTask.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -141,11 +144,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1F2727612446906F002388C6 /* Build configuration list for PBXNativeTarget "InterviewTask" */;
 			buildPhases = (
-				47DA9B04776F947700F87B46 /* [CP] Check Pods Manifest.lock */,
+				5EB82A0F86081DC585758AFD /* [CP] Check Pods Manifest.lock */,
 				1F2727492446906C002388C6 /* Sources */,
 				1F27274A2446906C002388C6 /* Frameworks */,
 				1F27274B2446906C002388C6 /* Resources */,
-				0C6F63A33128E55F25F6E328 /* [CP] Embed Pods Frameworks */,
+				020C2099EB9999DBED611A5A /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -202,7 +205,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		0C6F63A33128E55F25F6E328 /* [CP] Embed Pods Frameworks */ = {
+		020C2099EB9999DBED611A5A /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -219,7 +222,7 @@
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-InterviewTask/Pods-InterviewTask-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		47DA9B04776F947700F87B46 /* [CP] Check Pods Manifest.lock */ = {
+		5EB82A0F86081DC585758AFD /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -252,6 +255,7 @@
 				1F2727552446906C002388C6 /* ViewController.swift in Sources */,
 				1F27277424469C1F002388C6 /* UIImageView+Extension.swift in Sources */,
 				1F2727512446906C002388C6 /* AppDelegate.swift in Sources */,
+				918E63242446F63700B38A19 /* ViewModel.swift in Sources */,
 				1F27276824469457002388C6 /* API.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -386,7 +390,7 @@
 		};
 		1F2727622446906F002388C6 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3CD6EC0EBEF9D30C20418976 /* Pods-InterviewTask.debug.xcconfig */;
+			baseConfigurationReference = 718B473BAC284118F68DBA9B /* Pods-InterviewTask.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -405,7 +409,7 @@
 		};
 		1F2727632446906F002388C6 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 969D546CEE8E29173465B13C /* Pods-InterviewTask.release.xcconfig */;
+			baseConfigurationReference = 7260383FEC01365EA2716DFE /* Pods-InterviewTask.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
