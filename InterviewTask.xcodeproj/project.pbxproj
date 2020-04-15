@@ -14,7 +14,6 @@
 		1F27275D2446906F002388C6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F27275B2446906F002388C6 /* LaunchScreen.storyboard */; };
 		1F27276624469280002388C6 /* ImageCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F27276524469280002388C6 /* ImageCollectionCell.swift */; };
 		1F27276824469457002388C6 /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F27276724469457002388C6 /* API.swift */; };
-		1F27277424469C1F002388C6 /* UIImageView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F27277324469C1F002388C6 /* UIImageView+Extension.swift */; };
 		918E63242446F63700B38A19 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 918E63232446F63700B38A19 /* ViewModel.swift */; };
 /* End PBXBuildFile section */
 
@@ -27,7 +26,6 @@
 		1F27275E2446906F002388C6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1F27276524469280002388C6 /* ImageCollectionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCollectionCell.swift; sourceTree = "<group>"; };
 		1F27276724469457002388C6 /* API.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
-		1F27277324469C1F002388C6 /* UIImageView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImageView+Extension.swift"; sourceTree = "<group>"; };
 		641C0E42871BC18A65686403 /* Pods_InterviewTask.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_InterviewTask.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		718B473BAC284118F68DBA9B /* Pods-InterviewTask.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InterviewTask.debug.xcconfig"; path = "Target Support Files/Pods-InterviewTask/Pods-InterviewTask.debug.xcconfig"; sourceTree = "<group>"; };
 		7260383FEC01365EA2716DFE /* Pods-InterviewTask.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InterviewTask.release.xcconfig"; path = "Target Support Files/Pods-InterviewTask/Pods-InterviewTask.release.xcconfig"; sourceTree = "<group>"; };
@@ -124,7 +122,6 @@
 		1F27277224469BE0002388C6 /* Extension */ = {
 			isa = PBXGroup;
 			children = (
-				1F27277324469C1F002388C6 /* UIImageView+Extension.swift */,
 			);
 			path = Extension;
 			sourceTree = "<group>";
@@ -253,7 +250,6 @@
 			files = (
 				1F27276624469280002388C6 /* ImageCollectionCell.swift in Sources */,
 				1F2727552446906C002388C6 /* ViewController.swift in Sources */,
-				1F27277424469C1F002388C6 /* UIImageView+Extension.swift in Sources */,
 				1F2727512446906C002388C6 /* AppDelegate.swift in Sources */,
 				918E63242446F63700B38A19 /* ViewModel.swift in Sources */,
 				1F27276824469457002388C6 /* API.swift in Sources */,

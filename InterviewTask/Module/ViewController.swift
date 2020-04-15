@@ -7,8 +7,13 @@
 //
 
 import UIKit
+import RxSwift
+import RxCocoa
+import SnapKit
 
 class ViewController: UICollectionViewController {
+    let viewModel = ViewModel()
+    let disposeBag = DisposeBag()
 
     enum Identifier: String{
         case imageCellId
@@ -31,14 +36,23 @@ class ViewController: UICollectionViewController {
 private extension ViewController{
     func configureTable(){
         collectionView.register(ImageCollectionCell.self, forCellWithReuseIdentifier: Identifier.imageCellId.rawValue)
-    }
 
-    func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
+        collectionView.delegate = nil
+        collectionView.dataSource = nil
+        
+        viewModel.images
+            .bind(
+                to: collectionView.rx.items(
+                    cellIdentifier: Identifier.imageCellId.rawValue,
+                    cellType: ImageCollectionCell.self)) { (row, element, cell) in
+                        cell.setup(image: element)
+        }.disposed(by: disposeBag)
 
-    }
-
-    func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
-
+        collectionView.rx
+            .willDisplayCell
+            .map { $1.row }
+            .bind(to: viewModel.willDisplay)
+            .disposed(by: disposeBag)
     }
 }
 

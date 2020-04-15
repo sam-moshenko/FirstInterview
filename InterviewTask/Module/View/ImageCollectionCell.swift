@@ -21,7 +21,10 @@ class ImageCollectionCell: UICollectionViewCell{
     required init?(coder: NSCoder) {
         fatalError("init(coder:) has not been implemented")
     }
-    
+
+    public func setup(image: UIImage) {
+        imageView.image = image
+    }
 }
 private extension ImageCollectionCell{
     func configure(){
